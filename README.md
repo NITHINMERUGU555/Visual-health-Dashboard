@@ -62,3 +62,53 @@ The layout emphasizes simplicity and accessibility, ensuring users of all techni
 - Users can select any of the 50 U.S. states from a dropdown menu to view state-specific vaccination data, with Florida and Georgia shown here as examples.
 - The dashboard displays vaccination coverage statistics, including first dose, full vaccination, and booster rates, presented clearly through interactive bar charts.
 - A note informs users that booster data may not be available for all states, and the data is kept up to date with timestamps for transparency.
+### About Page
+
+![About Page](about.png)
+
+- The About page offers a clear overview of the Health Data Dashboard’s purpose and features, emphasizing transparency and user guidance.
+- Key features are listed with icons, including live COVID-19 case trends, vaccination insights from CDC data, preventive health tips, and interactive charts.
+- Data sources and disclaimers clarify the educational nature of the site and cite the CDC Open Data API as the information provider.
+- The page credits the developer, reinforcing authenticity and providing contact or portfolio linkage opportunities.
+
+## Below are explanations for all pages code
+
+### Header.php
+
+The `header.php` file defines the consistent header section displayed at the top of every page on the Visual Health Dashboard website.
+
+- It begins with a semantic `<header>` tag containing the website title wrapped in an `<h1>` tag for clear branding and SEO benefits.
+- Below the title, a navigation bar (`<nav>`) provides links to the main pages: Home, COVID Trends, Immunization, Tips, and About.
+- The navigation links are styled for clarity and ease of use, enabling intuitive site exploration.
+- Including this header via PHP `include` on each page maintains uniformity and simplifies future updates.
+
+### Footer.php
+
+The `footer.php` file defines the consistent footer section displayed at the bottom of every page on the Visual Health Dashboard website.
+
+- It uses the `<footer>` semantic tag for clear structure and accessibility.
+- The footer contains a copyright notice with the current year and site name.
+- Its styling provides a subtle visual boundary, separating content from page end.
+- Like the header, the footer is modular and included via PHP across all pages for consistent presentation and easy maintenance.
+## style.css Code Explanation
+
+The `style.css` file controls the overall visual design and layout of the Visual Health Dashboard website.
+
+- Sets a clean base font (Arial) and resets default margins and padding for consistent layout.
+- Styles the header and footer with dark backgrounds and white text to create clear framing.
+- Implements a horizontal navigation menu with spaced, bold links that underline on hover for better usability.
+- Defines consistent form styles with light backgrounds, borders, padding, and hover effects to improve user interaction.
+- Applies distinct backgrounds, padding, and subtle shadows to special sections like tips and about for visual separation.
+
+---
+
+## index.php Code Explanation
+
+The `index.php` file is the homepage of the Visual Health Dashboard website, acting as the main landing page.
+
+- Includes common header and footer using PHP includes for consistency across pages.
+- Features a welcoming hero section introducing the site’s purpose focused on health data visualization.
+- Contains a dropdown menu for selecting U.S. states to dynamically view COVID-19 trends.
+- Utilizes JavaScript to fetch and display interactive bar charts with monthly COVID-19 case data per selected state.
+- Provides an engaging, user-friendly interface for visitors to explore public health information easily.
+
