@@ -21,3 +21,14 @@ Key features include data-driven charts, daily wellness tips, curated health res
 - **Browser Developer Tools (Chrome DevTools)**: Employed for real-time debugging, layout inspection, and performance testing.
 - **Image Editing Tools**: Used to create and optimize graphical assets and background images used in the dashboard.
 
+### Home Page
+
+![Home Page](home.png)
+
+The Home Page serves as the welcoming entry point to the Visual Health Dashboard project. It features a clean, modern interface with a prominent header displaying the project title and navigation links to key sections such as COVID Trends, Immunization, Tips, and About.
+
+A large background image related to COVID-19 sets the thematic context for the dashboard, while an introductory text briefly describes the purpose of the site: to present public health trends through clear visuals and helpful tips.
+
+Below the introduction, the page provides quick-access cards or sections that highlight important health metrics, such as COVID-19 case numbers, vaccination rates, and preventive measures, encouraging users to explore data-driven insights easily.
+
+The layout emphasizes simplicity and accessibility, ensuring users of all technical backgrounds can navigate and understand critical health information efficiently.
