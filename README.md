@@ -112,3 +112,69 @@ The `index.php` file is the homepage of the Visual Health Dashboard website, act
 - Utilizes JavaScript to fetch and display interactive bar charts with monthly COVID-19 case data per selected state.
 - Provides an engaging, user-friendly interface for visitors to explore public health information easily.
 
+## covid-trends.php Code Explanation
+
+The `covid-trends.php` page provides an interactive visualization of recent COVID-19 case data for selected U.S. states.
+
+- Incorporates the common header and footer via PHP includes for consistent layout and navigation.
+- Presents a dropdown menu allowing users to select among various states to view state-specific COVID-19 trends.
+- Uses JavaScript to fetch live COVID-19 data from an external API and dynamically updates a bar chart showing monthly case counts.
+- Enhances user engagement by visualizing real data with clear labels and responsive chart elements.
+- Implements client-side scripting to provide a seamless experience without requiring page reloads.
+
+---
+
+## immunization.php Code Explanation
+
+The `immunization.php` page focuses on visualizing vaccination coverage statistics across all U.S. states.
+
+- Includes header and footer components for site-wide consistency using PHP includes.
+- Features a dropdown selector for all 50 states, enabling users to choose a state and view its immunization data.
+- Fetches real-time vaccination data from a public API and renders it as an interactive bar chart with metrics like first dose, full vaccination, and booster coverage.
+- Employs dynamic JavaScript to update the chart instantly upon state selection, improving user interactivity.
+- Provides additional contextual notes and last-updated timestamps to inform users about data freshness and availability.
+
+---
+
+## tips.php Code Explanation
+
+The `tips.php` page delivers curated daily health and wellness advice to promote positive lifestyle habits.
+
+- Utilizes PHP includes to maintain consistent header and footer elements across the website.
+- Contains a clearly structured main section with an inviting heading and an introductory paragraph emphasizing wellness.
+- Lists actionable daily tips as an unordered list enhanced with emoji icons for visual appeal and better user engagement.
+- Designed with accessibility and readability in mind, making it easy for users of all backgrounds to understand and adopt healthy habits.
+- The straightforward layout supports quick updates and scalability for future content additions.
+## about.php Code Explanation
+
+The `about.php` page provides an informative overview of the Visual Health Dashboard project.
+
+- Begins with PHP includes for the header and footer to keep the website structure consistent.
+- Introduces the project purpose, describing it as an educational and interactive platform delivering vital health insights.
+- Highlights design principles such as responsiveness, accessibility, and clean UI/UX to enhance user experience.
+- Details the key skills demonstrated, including modular PHP usage, semantic HTML, and responsive CSS techniques.
+- Credits the project’s development to the creator, reinforcing personal ownership and expertise.
+
+---
+
+## Project Overview
+
+Visual Health Dashboard is a dynamic, responsive web application designed to present vital public health data including COVID-19 trends and immunization statistics across all U.S. states. The site focuses on accessibility, user engagement, and clear visual presentation to empower users in making informed health decisions.
+
+Developed as a hands-on portfolio project, it emphasizes modular PHP architecture, live data integration via APIs, and responsive chart visualizations with JavaScript. The project balances usability and informative content for a seamless and educational user experience.
+
+---
+
+## Credits
+
+Developed and designed by **Nithin Merugu**.
+
+Special thanks to the data providers and open-source libraries that made this project possible.
+
+---
+
+## Thank You Note
+
+Thank you for taking the time to review this project. Your interest and feedback are greatly appreciated. Please feel free to reach out for any questions or collaboration opportunities.
+
+
