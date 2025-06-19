@@ -44,3 +44,12 @@ The layout emphasizes simplicity and accessibility, ensuring users of all techni
 - Utilizes live data from trusted sources (such as CDC) for accuracy and timely updates.
 - Features a clean and accessible layout with a consistent header and footer for easy navigation.
 
+### Health & Safety Tips Page
+
+![Health & Safety Tips Page](tips.png)
+
+- Presents key public health and safety recommendations in a clear, visually engaging dashboard layout.
+- Utilizes distinct cards for each tip, with relevant emojis and concise explanations to enhance readability and user understanding.
+- Designed with accessibility and responsiveness in mind, ensuring information is easy to scan on all devices.
+- Encourages healthy behaviors like handwashing, vaccination, mask usage, staying home when sick, and maintaining social distance.
+
