@@ -21,6 +21,8 @@ Key features include data-driven charts, daily wellness tips, curated health res
 - **Browser Developer Tools (Chrome DevTools)**: Employed for real-time debugging, layout inspection, and performance testing.
 - **Image Editing Tools**: Used to create and optimize graphical assets and background images used in the dashboard.
 
+Below are website screenshots showcasing all the main pages of the Visual Health Dashboard project.
+
 ### Home Page
 
 ![Home Page](home.png)
