@@ -1,0 +1,172 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: url('../images/bg-health.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3); /* dark transparent overlay */
+  z-index: -1;
+}
+
+header {
+  background-color: transparent;
+  position: relative;
+  z-index: 2;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  color: white;
+  text-shadow: 1px 1px 3px black;
+  font-weight: bold;
+}
+main {
+  padding: 20px;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 20px;
+  width: 28%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+.infographic {
+  margin-top: 40px;
+  background: #fff;
+  padding: 20px;
+  min-height: 350px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+
+.bar-chart {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  height: 200px;
+  background: #e8f0fe;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.bar {
+  width: 50px;
+  background: #007acc;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  margin: 0 10px;
+  border-radius: 5px 5px 0 0;
+  cursor: pointer;
+  position: relative;
+}
+
+main h2, main p {
+  color: #f1f1f1;
+  text-shadow: 0 0 5px #000;
+}
+.card {
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+.hero-banner {
+  height: 300px;
+  background: transparent; /* ✅ THIS LINE IS KEY */
+  text-align: center;
+  padding: 100px 0;
+  color: white;
+}
+canvas#vaccineChart {
+  display: block;
+  max-width: 100%;
+  height: 300px !important;
+  margin: 0 auto;
+  background: white;
+}
+.tips-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.tip-card {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 20px;
+  width: 260px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  border-radius: 12px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.tip-card:hover {
+  transform: scale(1.03);
+}
+
+.tip-card h3 {
+  margin-bottom: 10px;
+}
+
+.tip-card p {
+  color: #333;
+}
+.about-content {
+  color: #fff;
+  text-shadow: 1px 1px 3px #000;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about-content h2,
+.about-content h3 {
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+
+.about-content ul li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.about-content p {
+  color: #f1f1f1;
+  line-height: 1.7;
+}
