@@ -34,3 +34,13 @@ A large background image related to COVID-19 sets the thematic context for the d
 Below the introduction, the page provides quick-access cards or sections that highlight important health metrics, such as COVID-19 case numbers, vaccination rates, and preventive measures, encouraging users to explore data-driven insights easily.
 
 The layout emphasizes simplicity and accessibility, ensuring users of all technical backgrounds can navigate and understand critical health information efficiently.
+
+### COVID Trends Page
+
+![COVID Trends Page](covid-trends.png)
+
+- Displays monthly COVID-19 case trends with clear, interactive visualizations.
+- Includes a dropdown menu for selecting among different states (Florida, Texas, California), allowing users to view state-specific data.
+- Utilizes live data from trusted sources (such as CDC) for accuracy and timely updates.
+- Features a clean and accessible layout with a consistent header and footer for easy navigation.
+
