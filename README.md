@@ -53,3 +53,12 @@ The layout emphasizes simplicity and accessibility, ensuring users of all techni
 - Designed with accessibility and responsiveness in mind, ensuring information is easy to scan on all devices.
 - Encourages healthy behaviors like handwashing, vaccination, mask usage, staying home when sick, and maintaining social distance.
 
+### Immunization Data Page
+
+![Immunization Data Page](immunization1.png)  
+![Immunization Data Page](immunization2.png)
+
+- This page provides insights into immunization coverage and vaccination efforts across the United States, helping users understand public health progress.
+- Users can select any of the 50 U.S. states from a dropdown menu to view state-specific vaccination data, with Florida and Georgia shown here as examples.
+- The dashboard displays vaccination coverage statistics, including first dose, full vaccination, and booster rates, presented clearly through interactive bar charts.
+- A note informs users that booster data may not be available for all states, and the data is kept up to date with timestamps for transparency.
